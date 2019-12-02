@@ -108,9 +108,9 @@
 
 (defparameter *eliza-rules* 
  '((((?* ?x) ola (?* ?y)) ;;;;;;;;;;;;;;; SAUDAÇÕES
-    (Sobre o que voce gostaria de falar? Ansiedade? Depressao? Sindrome de Panico? Complexo de Inferioridade? Transtorno Bipolar? Sindrome de Burnout? Outros Problemas?))
+    (Sobre o que voce gostaria de falar? Ansiedade? Depressao? Sindrome do Panico? Complexo de Inferioridade? Transtorno Bipolar? Sindrome de Burnout? Outros Problemas?))
    (((?* ?x) oi (?* ?y))
-    (Sobre o que voce gostaria de falar? Ansiedade? Depressao? Sindrome de Panico? Complexo de Inferioridade? Transtorno Bipolar? Sindrome de Burnout? Outros Problemas))
+    (Sobre o que voce gostaria de falar? Ansiedade? Depressao? Sindrome do Panico? Complexo de Inferioridade? Transtorno Bipolar? Sindrome de Burnout? Outros Problemas))
    
    (((?* ?x) estou (?* ?y)) ;;;;;;;;;;;;;;; ESTADO
     (Como voce esta?))     
@@ -210,9 +210,9 @@
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO TRANSTORNO BIPOLAR
 
-   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DE PANICO
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DO PANICO
 
-   (((?* ?x) (sindrome de panico) (?* ?y)) 
+   (((?* ?x) (sindrome do panico) (?* ?y)) 
    (Sobre qual sintoma gostaria de falar? Dor no peito com sensacao de aperto? Sensacao de falta de ar? Sensacao de fraqueza ou desmaio? Sensacao de terror ou perigo iminente?))
    (((?* ?x) (Dor no peito com sensacao de aperto) (?* ?y))
    (Respirar lenta e profundamente ajuda a reduzir a frequencia cardiaca tudo bem?))
@@ -223,7 +223,7 @@
    (((?* ?x) (Sensacao de terror ou perigo iminente) (?* ?y))
    (Imagine um local real que transmita paz e segurança ou crie um ambiente imaginario... pensando em todos os detalhes que ajudam a trazer tranquilidade tudo bem?))
 
-   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO SINDROME DE PANICO
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO SINDROME DO PANICO
 
 
    
