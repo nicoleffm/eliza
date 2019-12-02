@@ -210,7 +210,19 @@
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO TRANSTORNO BIPOLAR
 
-   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DO PANICO
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO COMPLEXO DE INFERIORIDADE
+   
+    (((?* ?x) (complexo de inferioridade) (?* ?y)) 
+     (Sobre qual sintoma gostaria de falar? isolamento? Hábito de se comparar com os outros? Sentimentos de incapacidade e de inferioridade? Preocupação excessiva com a opinião das pessoas?))
+     (((?* ?x) isolamento (?* ?y))
+     (Faca uma pausa e de uma volta... mas num lugar com natureza... Isso ajuda a refletir sobre a sua própria identidade! certo?))
+     (((?* ?x) (Hábito de se comparar com os outros) (?* ?y))
+     (Descubra suas qualidades Ninguém é perfeito. Você pode até não ser tão bom em algumas coisas, especialmente quando se compara com algum especialista ou modelo, mas certamente possui características positivas que a outra pessoa não tem.  Toda vez que você se compara com alguém, você anula suas qualidades e particularidades.))
+     (((?* ?x) (Sentimentos de incapacidade e de inferioridade) (?* ?y))
+     (Escreva sobre seus sucessos ao longo da vida, as realizações das quais se orgulha e memórias queridas. Quando se sentir incapaz de fazer alguma coisa, veja sua lista e lembre-se de como você é uma pessoa capaz e fantástica.^^))
+     (((?* ?x) Preocupação excessiva com a opinião das pessoas (?* ?y))
+     (Tire o foco das pessoas e comece a dar impotância a pessoa maravilhosa que você é.Pratique exercicios... durma bastante e alimente-se de maneira correta!Se desenvolva como pessoa e se torne alguém ainda melhor,ok?))
+   ;;;;;;;;;;;;;;;;;;;;;;;;FIM DO BLOCO COMPLEXO DE INFERIORIDADE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DO PANICO
 
    (((?* ?x) (sindrome do panico) (?* ?y)) 
    (Sobre qual sintoma gostaria de falar? Dor no peito com sensacao de aperto? Sensacao de falta de ar? Sensacao de fraqueza ou desmaio? Sensacao de terror ou perigo iminente?))
