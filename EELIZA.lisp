@@ -256,15 +256,15 @@
    
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DE BURNOUT
    
-     (((?* ?x) SINDROME DE BURNOUT (?* ?y)) 
+     (((?* ?x) (SINDROME DE BURNOUT) (?* ?y)) 
      (Fale um pouco sobre o que sente. Tem faltado ao trabalho? Tem estado irritado? Vontade de ficar sozinho? Não consegue se concentrar? Tem esquecido as coisas? Quer pedir demissão?))
      (((?* ?x) faltas (?* ?y))
      (Tente identificar o que tem causado esta situação. É a cultura organizacional que não te agrada? É o acúmulo de tarefas? O que tem aniquilado a sua vontade de trabalhar? Procure fazer atividades que te desconecte por completo do trabalho após completar suas horas. Busque por momentos de alegria e viva cada minuto de lazer com intensidade.))
      (((?* ?x) (irritação) (?* ?y))
      (Alguma coisa tem te frustrado? Tente lembrar de algo que possa ter te causado essa irritação. Se foi alguém perdoe. Se foi alguma situação pergunte-se se existe algo que possa ser feito para resolvê-la. Se houver tente resolver o mais rápido possivel. Se não tente não deixar esses pensamentos tomarem conta da sua mente.))
-     (((?* ?x) vontade de ficar sozinho (?* ?y))
+     (((?* ?x) (vontade de ficar sozinho) (?* ?y))
      (Ficar sozinho às vezes pode ser bom. Tire um momento para clarear a mente e refletir. Porém se essa vontade é constante, procure pessoas agradáveis e busque sua companhia. Com certeza elas lhe farão sentir melhor e menos só.))
-     (((?* ?x) Dificuldade de foco (?* ?y))
+     (((?* ?x) (Dificuldade de foco) (?* ?y))
      (Sei que às vezes temos um milhao de coisas passando na nossa cabeça e isso muitas vezes bloqueia nossa capacidade de concentração. Tente tirar de perto de você tudo que possa lhe distrair - inclusive eu. Reorganize suas tarefas anote tudo no papel, mantenha hábitos saudáveis e principalmente, reveja se não existe nenhum trauma, ou mágoa que possa estar te impedindo de se concentrar. Se houver sempre é um bom momento de perdoar ou pedir perdão.))
      (((?* ?x) (esquecimento) (?* ?y))
      (Tem esquecido as coisas? Pode ser por andar imerso em pensamentos. Observe sua mente e veja se não há algo dentro dela bloqueando sua atenção. Caso não haja nenhum motivo aparente para esses lapsos de memória sempre é bom procurar um médico ok?))
