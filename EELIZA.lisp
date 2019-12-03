@@ -253,23 +253,22 @@
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO ANSIEDADE
    
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DE BURNOUT
    
-   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DE BURNOUT
-   
-     (((?* ?x) (SINDROME DE BURNOUT) (?* ?y)) 
-     (Fale um pouco sobre o que sente. Tem faltado ao trabalho? Tem estado irritado? Vontade de ficar sozinho? Não consegue se concentrar? Tem esquecido as coisas? Quer pedir demissão?))
+     (((?* ?x) sindrome de burnout (?* ?y)) 
+     (Fale um pouco sobre o que sente. Tem faltado ao trabalho? Tem estado irritado? Vontade de ficar sozinho? Nao consegue se concentrar? Tem esquecido as coisas? Quer pedir demissao?))
      (((?* ?x) faltas (?* ?y))
-     (Tente identificar o que tem causado esta situação. É a cultura organizacional que não te agrada? É o acúmulo de tarefas? O que tem aniquilado a sua vontade de trabalhar? Procure fazer atividades que te desconecte por completo do trabalho após completar suas horas. Busque por momentos de alegria e viva cada minuto de lazer com intensidade.))
-     (((?* ?x) (irritação) (?* ?y))
-     (Alguma coisa tem te frustrado? Tente lembrar de algo que possa ter te causado essa irritação. Se foi alguém perdoe. Se foi alguma situação pergunte-se se existe algo que possa ser feito para resolvê-la. Se houver tente resolver o mais rápido possivel. Se não tente não deixar esses pensamentos tomarem conta da sua mente.))
+     (Tente identificar o que tem causado esta situacao. Eh a cultura organizacional que nao te agrada? Eh o acumulo de tarefas? O que tem aniquilado a sua vontade de trabalhar? Procure fazer atividades que te desconecte por completo do trabalho apos completar suas horas. Busque por momentos de alegria e viva cada minuto de lazer com intensidade.))
+     (((?* ?x) (irritacao) (?* ?y))
+     (Alguma coisa tem te frustrado? Tente lembrar de algo que possa ter te causado essa irritacao. Se foi alguem perdoe. Se foi alguma situacao se pergunte se existe algo que possa ser feito para resolver. Se houver tente resolver o mais rapido possivel. Se nao tente nao deixar esses pensamentos tomarem conta da sua mente.))
      (((?* ?x) (vontade de ficar sozinho) (?* ?y))
-     (Ficar sozinho às vezes pode ser bom. Tire um momento para clarear a mente e refletir. Porém se essa vontade é constante, procure pessoas agradáveis e busque sua companhia. Com certeza elas lhe farão sentir melhor e menos só.))
-     (((?* ?x) (Dificuldade de foco) (?* ?y))
-     (Sei que às vezes temos um milhao de coisas passando na nossa cabeça e isso muitas vezes bloqueia nossa capacidade de concentração. Tente tirar de perto de você tudo que possa lhe distrair - inclusive eu. Reorganize suas tarefas anote tudo no papel, mantenha hábitos saudáveis e principalmente, reveja se não existe nenhum trauma, ou mágoa que possa estar te impedindo de se concentrar. Se houver sempre é um bom momento de perdoar ou pedir perdão.))
+     (Ficar sozinho às vezes pode ser bom. Tire um momento para clarear a mente e refletir. Porem se essa vontade eh constante... procure pessoas agradaveis e busque sua companhia. Com certeza elas lhe farao sentir melhor e menos so.))
+     (((?* ?x) Dificuldade de foco (?* ?y))
+     (Sei que as vezes temos um milhao de coisas passando na nossa cabeca e isso muitas vezes bloqueia nossa capacidade de concentracao. Tente tirar de perto de você tudo que possa lhe distrair - inclusive eu. Reorganize suas tarefas anote tudo no papel... mantenha habitos saudaveis e principalmente... reveja se nao existe nenhum trauma ou magoa que possa estar te impedindo de se concentrar. Se houver sempre eh um bom momento de perdoar ou pedir perdao.))
      (((?* ?x) (esquecimento) (?* ?y))
-     (Tem esquecido as coisas? Pode ser por andar imerso em pensamentos. Observe sua mente e veja se não há algo dentro dela bloqueando sua atenção. Caso não haja nenhum motivo aparente para esses lapsos de memória sempre é bom procurar um médico ok?))
-     (((?* ?x) (vontade de pedir demissao) (?* ?y))
-     (É muito normal as pessoas se sentirem insatisfeitas no trabalho. No entanto essa decisão não pode ser tomada sem uma boa avaliacao. Só considere o pedido, se já pensou bastante sobre o assunto e principalmente se já se planejou e tem um bom plano pro futuro.))
+     (Tem esquecido as coisas? Pode ser por andar imerso em pensamentos. Observe sua mente e veja se nao ha algo dentro dela bloqueando sua atencao. Caso nao haja nenhum motivo aparente para esses lapsos de memoria sempre eh bom procurar um medico ok?))
+     (((?* ?x) (vontade de pedir demisso) (?* ?y))
+     (Eh muito normal as pessoas se sentirem insatisfeitas no trabalho. No entanto essa decisao nao pode ser tomada sem uma boa avaliacao. So considere o pedido... se ja pensou bastante sobre o assunto e principalmente se ja se planejou e tem um bom plano pro futuro.))
      
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO SINDROME DE BURNOUT
    
