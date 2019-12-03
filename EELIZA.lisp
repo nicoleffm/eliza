@@ -236,26 +236,23 @@
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO SINDROME DO PANICO
 
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO ANSIEDADE
+
+   (((?* ?x) (ansiedade) (?* ?y)) 
+   (Sobre qual sintoma gostaria de falar? Se sentir tenso e contraido? Cabeca cheia de preocupacoes? Sensacao de panico? Perda do interesse em cuidar da aparencia? Sensacao de inquietacao?))
+   (((?* ?x) (Se sentir tenso e contraido) (?* ?y))
+   (Tecnicas de respiração e concentracao podem ajudar voce! Procure informacoes sobre isso.))
+   (((?* ?x) (Cabeca cheia de preocupacoes) (?* ?y))
+   (Tente dar um passeio. Busque caminhar em um local agradavelm, onde voce se sinta bem.))
+   (((?* ?x) (Sensacao de panico) (?* ?y))
+   (Desvie sua atencao do que te causa panico. Procure alguem para conversar sobre algum assunto que voce goste.))
+   (((?* ?x) (Perda do interesse em cuidar da aparencia) (?* ?y))
+   ())
+   (((?* ?x) (Sensacao de inquietacao) (?* ?y))
+   ())
+
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO ANSIEDADE
    
-   
-   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DE BURNOUT
-   
-     (((?* ?x) (sindrome de burnout) (?* ?y)) 
-     (Fale um pouco sobre o que sente. Tem faltado ao trabalho? Tem estado irritado? Vontade de ficar sozinho? Nao consegue se concentrar? Tem esquecido as coisas? Quer pedir demissao?))
-     (((?* ?x) (tenho faltado ao trabalho) (?* ?y))
-     (Tente identificar o que tem causado esta situação. Eh a cultura organizacional que nao te agrada? Eh o acumulo de tarefas? O que tem aniquilado a sua vontade de trabalhar? Procure fazer atividades que te desconecte por completo do trabalho apos completar suas horas. Busque por momentos de alegria e viva cada minuto de lazer com intensidade.))
-     (((?* ?x) (tenho estado irritado) (?* ?y))
-     (Alguma coisa tem te frustrado? Tente lembrar de algo que possa ter te causado essa irritacao. Se foi alguem perdoe. Se foi alguma situacao pergunte se existe algo que possa ser feito para resolver. Se houver tente resolver o mais rapido possivel. Se nao tente nao deixar esses pensamentos tomarem conta da sua mente.))
-     (((?* ?x) (vontade de ficar sozinho) (?* ?y))
-     (Ficar sozinho as vezes pode ser bom. Tire um momento para clarear a mente e refletir. Porem se essa vontade é constante... procure pessoas agradáveis e busque sua companhia. Com certeza elas lhe farao sentir melhor e menos so.))
-     (((?* ?x) (nao consigo me concentrar) (?* ?y))
-     (Sei que as vezes temos um milhao de coisas passando na nossa cabeca e isso muitas vezes bloqueia nossa capacidade de concentracao. Tente tirar de perto de voce tudo que possa lhe distrair ...inclusive eu . Reorganize suas tarefas anote tudo no papel... mantenha habitos saudaveis e principalmente... reveja se não existe nenhum trauma... ou magoa que possa estar te impedindo de se concentrar. Se houver sempre eh um bom momento de perdoar ou pedir perdao.))
-     (((?* ?x) (tenho equecido as coisas) (?* ?y))
-     (Tem esquecido as coisas? Pode ser por andar imerso em pensamentos. Observe sua mente e veja se não ha algo dentro dela bloqueando sua atencao. Caso nao haja nenhum motivo aparente para esses lapsos de memoria sempre eh bom procurar um medico ok?))
-     (((?* ?x) (quero pedir demissao) (?* ?y))
-     (Eh muito normal as pessoas se sentirem insatisfeitas no trabalho. No entanto essa decisao não pode ser tomada sem uma boa avaliacao. So considere o pedido... se ja pensou bastante sobre o assunto e principalmente se ja se planejou e tem um bom plano pro futuro.))
-     
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO SINDROME DE BURNOUT
    
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
