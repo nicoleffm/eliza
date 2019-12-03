@@ -248,11 +248,11 @@
      (Alguma coisa tem te frustrado? Tente lembrar de algo que possa ter te causado essa irritacao. Se foi alguem perdoe. Se foi alguma situacao pergunte se existe algo que possa ser feito para resolver. Se houver tente resolver o mais rapido possivel. Se nao tente nao deixar esses pensamentos tomarem conta da sua mente.))
      (((?* ?x) (vontade de ficar sozinho) (?* ?y))
      (Ficar sozinho as vezes pode ser bom. Tire um momento para clarear a mente e refletir. Porem se essa vontade é constante... procure pessoas agradáveis e busque sua companhia. Com certeza elas lhe farao sentir melhor e menos so.))
-     (((?* ?x) Dificuldade de foco (?* ?y))
-     (Sei que as vezes temos um milhao de coisas passando na nossa cabeca e isso muitas vezes bloqueia nossa capacidade de concentração. Tente tirar de perto de você tudo que possa lhe distrair ...inclusive eu . Reorganize suas tarefas anote tudo no papel... mantenha habitos saudaveis e principalmente... reveja se não existe nenhum trauma... ou magoa que possa estar te impedindo de se concentrar. Se houver sempre eh um bom momento de perdoar ou pedir perdao.))
+     (((?* ?x) (nao consigo me concentrar) (?* ?y))
+     (Sei que as vezes temos um milhao de coisas passando na nossa cabeca e isso muitas vezes bloqueia nossa capacidade de concentracao. Tente tirar de perto de voce tudo que possa lhe distrair ...inclusive eu . Reorganize suas tarefas anote tudo no papel... mantenha habitos saudaveis e principalmente... reveja se não existe nenhum trauma... ou magoa que possa estar te impedindo de se concentrar. Se houver sempre eh um bom momento de perdoar ou pedir perdao.))
      (((?* ?x) (tenho equecido as coisas) (?* ?y))
-     (Tem esquecido as coisas? Pode ser por andar imerso em pensamentos. Observe sua mente e veja se não ha algo dentro dela bloqueando sua atenção. Caso nao haja nenhum motivo aparente para esses lapsos de memoria sempre eh bom procurar um medico ok?))
-     (((?* ?x) (vontade de pedir demissao) (?* ?y))
+     (Tem esquecido as coisas? Pode ser por andar imerso em pensamentos. Observe sua mente e veja se não ha algo dentro dela bloqueando sua atencao. Caso nao haja nenhum motivo aparente para esses lapsos de memoria sempre eh bom procurar um medico ok?))
+     (((?* ?x) (quero pedir demissao) (?* ?y))
      (Eh muito normal as pessoas se sentirem insatisfeitas no trabalho. No entanto essa decisao não pode ser tomada sem uma boa avaliacao. So considere o pedido... se ja pensou bastante sobre o assunto e principalmente se ja se planejou e tem um bom plano pro futuro.))
      
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO SINDROME DE BURNOUT
