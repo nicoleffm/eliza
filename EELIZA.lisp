@@ -158,7 +158,6 @@
      (((?* ?x) irritabilidade (?* ?y))
      (Saiba que nao e sua culpa e que eu apoio voce! faca algo que goste...leia um livro...va ao cinema...tente nao pensar nisso...esta bem?))
    
-   
      
      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASO A PESSOA RESPONDA 'ESTA BEM'
            
@@ -204,10 +203,7 @@
      (((?* ?x) Agitacao (?* ?y))
      (Pratique exercicios... durma bastante e alimente-se de maneira correta! isso ajuda a diminuir os niveis de estresse e a relaxar ok?))
    
- 
-
    
-
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO TRANSTORNO BIPOLAR
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO COMPLEXO DE INFERIORIDADE
@@ -222,7 +218,10 @@
      (Escreva sobre seus sucessos ao longo da vida, as realizações das quais se orgulha e memórias queridas. Quando se sentir incapaz de fazer alguma coisa, veja sua lista e lembre-se de como você é uma pessoa capaz e fantástica.^^))
      (((?* ?x) (Preocupacao excessiva com a opinião das pessoas) (?* ?y))
      (Tire o foco das pessoas e comece a dar impotância a pessoa maravilhosa que você é.Pratique exercicios... durma bastante e alimente-se de maneira correta!Se desenvolva como pessoa e se torne alguém ainda melhor,ok?))
-   ;;;;;;;;;;;;;;;;;;;;;;;;FIM DO BLOCO COMPLEXO DE INFERIORIDADE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DO PANICO
+   
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;FIM DO BLOCO COMPLEXO DE INFERIORIDADE
+   
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO SINDROME DO PANICO
 
    (((?* ?x) (sindrome do panico) (?* ?y)) 
    (Sobre qual sintoma gostaria de falar? Dor no peito com sensacao de aperto? Sensacao de falta de ar? Sensacao de fraqueza ou desmaio? Sensacao de terror ou perigo iminente?))
@@ -238,7 +237,6 @@
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO SINDROME DO PANICO
 
 
-   
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;; ZUERA NOSSA DE CADA DIA
    (((?* ?x) (bora beber) (?* ?y))
