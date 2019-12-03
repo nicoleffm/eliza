@@ -238,18 +238,18 @@
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; INICIO DO BLOCO ANSIEDADE
 
-   (((?* ?x) (ansiedade) (?* ?y)) 
+   (((?* ?x) ansiedade (?* ?y)) 
    (Sobre qual sintoma gostaria de falar? Se sentir tenso e contraido? Cabeca cheia de preocupacoes? Sensacao de panico? Perda do interesse em cuidar da aparencia? Sensacao de inquietacao?))
    (((?* ?x) (Se sentir tenso e contraido) (?* ?y))
-   (Tecnicas de respiração e concentracao podem ajudar voce! Procure informacoes sobre isso.))
+   (Tecnicas de respiracao e concentracao podem ajudar voce! Procure informacoes sobre isso.))
    (((?* ?x) (Cabeca cheia de preocupacoes) (?* ?y))
-   (Tente dar um passeio. Busque caminhar em um local agradavelm, onde voce se sinta bem.))
+   (Tente dar um passeio. Busque caminhar em um local agradavel... onde voce se sinta bem.))
    (((?* ?x) (Sensacao de panico) (?* ?y))
    (Desvie sua atencao do que te causa panico. Procure alguem para conversar sobre algum assunto que voce goste.))
    (((?* ?x) (Perda do interesse em cuidar da aparencia) (?* ?y))
-   (Aproveite um dia de sol, pois a luminosidade estimula a producao de serotonina, hormonio que traz a sensacao de bem estar, e que tambem pode ser estimulado pelas atividades fisicas.))
+   (Aproveite um dia de sol... pois a luminosidade estimula a producao de serotonina... hormonio que traz a sensacao de bem estar e que tambem pode ser estimulado pelas atividades fisicas.))
    (((?* ?x) (Sensacao de inquietacao) (?* ?y))
-   (Procure tornar o ambiente o mais agradavel e calmo possivel, com iluminacao adequada e, talvez, um leve som ambiente. Procure dormir bastante tambem e, se necessario, faca uso de medicamentos para tratar outros sintomas que possam surgir. Converse com um medico antes de utilizar qualquer tipo de remedio.))
+   (Procure tornar o ambiente o mais agradavel e calmo possivel... com iluminacao adequada e talvez um leve som ambiente. Procure dormir bastante tambem e se necessario faca uso de medicamentos para tratar outros sintomas que possam surgir. Converse com um medico antes de utilizar qualquer tipo de remedio.))
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FIM DO BLOCO ANSIEDADE
    
